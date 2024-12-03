@@ -7,4 +7,4 @@ COPY . .
 # Expose the port that your Spring Boot application listens on (default is 8080)
 EXPOSE 8085
 # Define the command to run your application
-CMD ["java", "-jar", "orchestrator.jar"]
+CMD ["java", "-jar", "orchestrator-0.1.0-SNAPSHOT.jar"]
